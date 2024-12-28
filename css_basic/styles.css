@@ -1,0 +1,27 @@
+/* Body styles */
+body {
+    display: flex;
+    flex-direction: column; /* Stack header, main, and footer vertically */
+    margin: 0;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  /* Main container styles */
+  main {
+    display: flex;
+    flex-direction: row; /* Place article and aside side-by-side */
+    flex: auto; /* Adjust height and width automatically */
+  }
+  
+  /* Article styles */
+  article {
+    flex: 2; /* Occupies two-thirds of the width */
+    overflow-y: auto; /* Allows scrolling if content overflows */
+  }
+  
+  /* Aside styles */
+  aside {
+    flex: 1; /* Occupies one-third of the width */
+    overflow-y: auto; /* Allows scrolling if content overflows */
+  }
+  
