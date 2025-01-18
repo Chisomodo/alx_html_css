@@ -1,1 +1,0 @@
-Welcome to the Headphones Web Design project. This repository contains the design and front-end implementation of a responsive webpage for a headphone product. The design is built using Figma, and the webpage is optimized for both desktop and mobile viewports. The mobile version activates at screen widths of 480px or less.
